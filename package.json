@@ -1,0 +1,39 @@
+{
+  "name": "m-numberpicker",
+  "version": "1.0.0",
+  "description": "m-numberpicker 数字选择器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/59fe/m-numberpicker.git"
+  },
+  "homepage": "https://github.com/59fe/m-numberpicker",
+  "author": {
+    "name": "半边",
+    "email": "itaofe@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "半边",
+      "email": "itaofe@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/59fe/m-numberpicker/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "react": "~15.2.0",
+    "m-base": "^1.0.0",
+    "classnames": "~2.2.3"
+  },
+  "keywords": [
+    "numberpicker",
+    "react",
+    "mobile"
+  ],
+  "license": "Apache-2.0"
+}
