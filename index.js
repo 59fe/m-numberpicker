@@ -73,6 +73,7 @@ var NumberPicker = function (_React$Component) {
             var step = _props.step;
             var autoFocus = _props.autoFocus;
             var disabled = _props.disabled;
+            var readOnly = _props.readOnly;
 
 
             var displayValue = focused ? fakeValue : value;
@@ -92,6 +93,7 @@ var NumberPicker = function (_React$Component) {
                     step: step,
                     value: displayValue,
                     disabled: disabled,
+                    readOnly: readOnly,
                     autoFocus: autoFocus,
                     onBlur: this.onBlur,
                     onFocus: this.onFocus,
@@ -217,6 +219,7 @@ NumberPicker.propTypes = {
     step: _react.PropTypes.number,
     value: _react.PropTypes.number,
     disabled: _react.PropTypes.bool,
+    readOnly: _react.PropTypes.bool,
     autoFocus: _react.PropTypes.bool
 };
 
@@ -226,6 +229,7 @@ NumberPicker.defaultProps = {
     max: Infinity,
     min: -Infinity,
     disabled: false,
+    readOnly: false,
     autoFocus: false,
     onChange: function onChange() {}
 };
