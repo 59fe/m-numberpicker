@@ -19,6 +19,7 @@
 | step     | 每次改变步数       | Number      |      1      |
 | defaultValue     | 初始值       | Number      |            |
 | disabled     | 禁用       | Boolean      |      false      |
+| readOnly     | 不可手动输入，仅可通过加减按钮增减数值  | Boolean      |      false      |
 | autoFocus     | 自动获得焦点       | Boolean      |      false      |
 | onChange     | 变化回调       | Function      |      `function() {}`      |
 | onAdd     | 增加数值回调       | Function      |       `function() {}`     |

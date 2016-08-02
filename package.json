@@ -1,6 +1,6 @@
 {
   "name": "m-numberpicker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "m-numberpicker 数字选择器",
   "main": "index.js",
   "scripts": {
