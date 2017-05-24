@@ -11,6 +11,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _PropTypes = require('prop-types');
+
+var _PropTypes2 = _interopRequireDefault(_PropTypes);
+
 var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
@@ -214,13 +218,13 @@ exports.default = NumberPicker;
 
 
 NumberPicker.propTypes = {
-    min: _react.PropTypes.number,
-    max: _react.PropTypes.number,
-    step: _react.PropTypes.number,
-    value: _react.PropTypes.number,
-    disabled: _react.PropTypes.bool,
-    readOnly: _react.PropTypes.bool,
-    autoFocus: _react.PropTypes.bool
+    min:       _PropTypes2.default.number,
+    max:       _PropTypes2.default.number,
+    step:      _PropTypes2.default.number,
+    value:     _PropTypes2.default.number,
+    disabled:  _PropTypes2.default.bool,
+    readOnly:  _PropTypes2.default.bool,
+    autoFocus: _PropTypes2.default.bool
 };
 
 NumberPicker.defaultProps = {

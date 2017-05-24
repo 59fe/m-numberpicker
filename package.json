@@ -1,6 +1,6 @@
 {
   "name": "m-numberpicker",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "m-numberpicker 数字选择器",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,8 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "react": "~15.2.0",
+    "react": "~15.5.4",
+    "prop-types": "^15.5.8",
     "m-base": "^1.0.0",
     "classnames": "~2.2.3"
   },
